@@ -290,6 +290,7 @@ def main():
     ctypes.windll.shcore.SetProcessDpiAwareness(2)
     root = tk.Tk()
     App(root, load_config())
+    root.after(300, lambda: (root.deiconify(), root.lift()))  # Windows may start it minimized when launched from the background
     root.mainloop()
 
 
