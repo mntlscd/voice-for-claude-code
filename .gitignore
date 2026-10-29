@@ -1,0 +1,7 @@
+# personal, created when you use the app
+config.json
+app.log
+install.log
+shots/
+session.txt
+__pycache__/
